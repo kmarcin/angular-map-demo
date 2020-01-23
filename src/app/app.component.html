@@ -1,0 +1,10 @@
+<div class="title">
+
+</div>
+<app-angular-map
+  [center]="mapCenter"
+  [zoom]="mapZoomLevel"
+  [portalUrl]="mapPortalUrl"
+  [itemId]="mapItemId"
+  (mapLoadedEvent)="mapLoadedEvent($event)">
+</app-angular-map>
